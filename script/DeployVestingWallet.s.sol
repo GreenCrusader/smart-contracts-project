@@ -29,7 +29,7 @@ contract DeployVestingWallet is Script {
 
         vm.stopBroadcast();
 
-        console.log("\n=== Déploiement Réussi ===");
+        console.log("\n=== Deploiement Reussi ===");
         console.log("MockERC20 Address:", address(mockToken));
         console.log("VestingWallet Address:", address(vestingWallet));
     }
